@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\FRANCESCO\\x scuola\\Superiori\\Informatica\\COMPITI\\La-ferrovia\\La-ferroviaFunzionante\\La-ferrovia-main\\La ferrovia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1638CE37-0AE5-4FC9-9231-D32F3A8CFF6A}|La ferrovia\\La ferrovia.csproj|g:\\francesco\\x scuola\\superiori\\informatica\\compiti\\la-ferrovia\\la-ferroviafunzionante\\la-ferrovia-main\\la ferrovia\\la ferrovia\\treno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1638CE37-0AE5-4FC9-9231-D32F3A8CFF6A}|La ferrovia\\La ferrovia.csproj|solutionrelative:la ferrovia\\treno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1638CE37-0AE5-4FC9-9231-D32F3A8CFF6A}|La ferrovia\\La ferrovia.csproj|g:\\francesco\\x scuola\\superiori\\informatica\\compiti\\la-ferrovia\\la-ferroviafunzionante\\la-ferrovia-main\\la ferrovia\\la ferrovia\\ferrovia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1638CE37-0AE5-4FC9-9231-D32F3A8CFF6A}|La ferrovia\\La ferrovia.csproj|solutionrelative:la ferrovia\\ferrovia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1638CE37-0AE5-4FC9-9231-D32F3A8CFF6A}|La ferrovia\\La ferrovia.csproj|g:\\francesco\\x scuola\\superiori\\informatica\\compiti\\la-ferrovia\\la-ferroviafunzionante\\la-ferrovia-main\\la ferrovia\\la ferrovia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1638CE37-0AE5-4FC9-9231-D32F3A8CFF6A}|La ferrovia\\La ferrovia.csproj|solutionrelative:la ferrovia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ferrovia.cs",
+              "DocumentMoniker": "G:\\FRANCESCO\\x scuola\\Superiori\\Informatica\\COMPITI\\La-ferrovia\\La-ferroviaFunzionante\\La-ferrovia-main\\La ferrovia\\La ferrovia\\Ferrovia.cs",
+              "RelativeDocumentMoniker": "La ferrovia\\Ferrovia.cs",
+              "ToolTip": "G:\\FRANCESCO\\x scuola\\Superiori\\Informatica\\COMPITI\\La-ferrovia\\La-ferroviaFunzionante\\La-ferrovia-main\\La ferrovia\\La ferrovia\\Ferrovia.cs",
+              "RelativeToolTip": "La ferrovia\\Ferrovia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T14:43:32.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Treno.cs",
+              "DocumentMoniker": "G:\\FRANCESCO\\x scuola\\Superiori\\Informatica\\COMPITI\\La-ferrovia\\La-ferroviaFunzionante\\La-ferrovia-main\\La ferrovia\\La ferrovia\\Treno.cs",
+              "RelativeDocumentMoniker": "La ferrovia\\Treno.cs",
+              "ToolTip": "G:\\FRANCESCO\\x scuola\\Superiori\\Informatica\\COMPITI\\La-ferrovia\\La-ferroviaFunzionante\\La-ferrovia-main\\La ferrovia\\La ferrovia\\Treno.cs",
+              "RelativeToolTip": "La ferrovia\\Treno.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwEQAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T14:43:33.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\FRANCESCO\\x scuola\\Superiori\\Informatica\\COMPITI\\La-ferrovia\\La-ferroviaFunzionante\\La-ferrovia-main\\La ferrovia\\La ferrovia\\Program.cs",
+              "RelativeDocumentMoniker": "La ferrovia\\Program.cs",
+              "ToolTip": "G:\\FRANCESCO\\x scuola\\Superiori\\Informatica\\COMPITI\\La-ferrovia\\La-ferroviaFunzionante\\La-ferrovia-main\\La ferrovia\\La ferrovia\\Program.cs",
+              "RelativeToolTip": "La ferrovia\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T14:43:33.166Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

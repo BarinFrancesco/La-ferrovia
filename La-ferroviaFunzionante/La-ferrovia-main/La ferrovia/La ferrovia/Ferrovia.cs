@@ -9,24 +9,22 @@ namespace La_ferrovia
     public class Ferrovia
     {
 
-        public SemaphoreSlim CodaAttesaNord;
-        public SemaphoreSlim CodaAttesaSud;
+        public SemaphoreSlim CodaAttesa;
         public bool? Direzione;
 
         public long TreniConsecutivi;
         private int maxcount;
         public long TreniInMovimento;
-        public long TreniInAttesaNord;
-        public long TreniInAttesaSud;
+        public long TreniInAttesaDestra;
+        public long TreniInAttesaSinistra;
 
         public Ferrovia()
         {
-            CodaAttesaNord = new SemaphoreSlim(0);
-            CodaAttesaSud = new SemaphoreSlim(0);
+            CodaAttesa = new SemaphoreSlim(0);
             TreniInMovimento = 0;
             TreniConsecutivi = 0;
-            TreniInAttesaNord = 0;
-            TreniInAttesaSud = 0;
+            TreniInAttesaDestra = 0;
+            TreniInAttesaSinistra = 0;
             Direzione = null;
             maxcount = 3;
         }

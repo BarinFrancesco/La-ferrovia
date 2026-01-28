@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,34 +10,23 @@ namespace La_ferrovia
     {
         public int ID;
         public bool Direzione { get; private set; }
-        readonly SemaphoreSlim CodaPropria;
-        readonly SemaphoreSlim CodaOpposta;
-        private long AttesaCodaPropria;
-        private long AttesaCodaOpposta;
+        readonly SemaphoreSlim CodaAttesa;
         public Ferrovia FerroviaDiRiferimento;
         
         public Treno(int id , Ferrovia ferrovia)
         {
             ID = id;
             Direzione = Random.Shared.Next(1, 7) % 2 == 0 ? true : false; //direzione casuale 
-
-            CodaPropria = Direzione? ferrovia.CodaAttesaNord : ferrovia.CodaAttesaSud;
-            AttesaCodaPropria = Direzione ? ref ferrovia.TreniInAttesaNord : ref ferrovia.TreniInAttesaSud;
-
-            CodaOpposta = Direzione ? ferrovia.CodaAttesaSud : ferrovia.CodaAttesaNord;
-            AttesaCodaOpposta = Direzione ? ref ferrovia.TreniInAttesaSud : ref ferrovia.TreniInAttesaNord;
-            
+            CodaAttesa = ferrovia.CodaAttesa;
             FerroviaDiRiferimento = ferrovia;
         }
 
         public async Task EntraBinario()
         {
             string direzione = Direzione ? "nord" : "sud";
-            Print($"Il treno {ID}, Direzione:{direzione} sta provando ad entrare", 4);
-            
+            Console.WriteLine($"Il treno {ID}, Direzione:{direzione} sta provando ad entrare");
             while (true)
             {
-                
                 bool entra = await FerroviaDiRiferimento.PuòEntrare(this);
 
                 if (entra)
@@ -46,7 +34,6 @@ namespace La_ferrovia
                     FerroviaDiRiferimento.Direzione = Direzione;
                     Interlocked.Increment(ref FerroviaDiRiferimento.TreniInMovimento);
                     await AttraversaBinari();
-                    
                     break;
                 }
                 else
@@ -55,8 +42,7 @@ namespace La_ferrovia
                 }
                 await Task.Delay(50);
             }
-
-            Console.WriteLine($"Il treno {ID} esce dal binario");
+             
         }
 
 
@@ -83,26 +69,15 @@ namespace La_ferrovia
                 Interlocked.Exchange(ref FerroviaDiRiferimento.TreniConsecutivi, 0);
                 Print("Binario libero", 4);
                 FerroviaDiRiferimento.Direzione = null;
-                if (Interlocked.Read(ref AttesaCodaOpposta) != 0)
-                {
-                    Interlocked.Decrement(ref AttesaCodaOpposta);
-                    CodaOpposta.Release();
-                } else
-                {
-                    CodaPropria.Release();
-                }
-                
+                CodaAttesa.Release();
             }
-
-            
         }
 
         public async Task Aspetta()
         {
             string direzione = Direzione ? "nord" : "sud";
             Print($"Il treno {ID}, Direzione:{direzione} sta Aspettando il suo turno......", 3);
-            Interlocked.Increment(ref AttesaCodaPropria);
-            await CodaPropria.WaitAsync();
+            await CodaAttesa.WaitAsync();
 
         }
 
