@@ -28,3 +28,18 @@ G:\FRANCESCO\x scuola\Superiori\Informatica\COMPITI\La-ferrovia\La-ferroviaFunzi
 G:\FRANCESCO\x scuola\Superiori\Informatica\COMPITI\La-ferrovia\La-ferroviaFunzionante\La-ferrovia-main\La ferrovia\La ferrovia\obj\Debug\net7.0\La ferrovia.pdb
 G:\FRANCESCO\x scuola\Superiori\Informatica\COMPITI\La-ferrovia\La-ferroviaFunzionante\La-ferrovia-main\La ferrovia\La ferrovia\obj\Debug\net7.0\La ferrovia.genruntimeconfig.cache
 G:\FRANCESCO\x scuola\Superiori\Informatica\COMPITI\La-ferrovia\La-ferroviaFunzionante\La-ferrovia-main\La ferrovia\La ferrovia\obj\Debug\net7.0\ref\La ferrovia.dll
+C:\Users\12999355\Desktop\compiti\La-ferrovia\La-ferroviaFunzionante\La-ferrovia-main\La ferrovia\La ferrovia\bin\Debug\net7.0\La ferrovia.exe
+C:\Users\12999355\Desktop\compiti\La-ferrovia\La-ferroviaFunzionante\La-ferrovia-main\La ferrovia\La ferrovia\bin\Debug\net7.0\La ferrovia.deps.json
+C:\Users\12999355\Desktop\compiti\La-ferrovia\La-ferroviaFunzionante\La-ferrovia-main\La ferrovia\La ferrovia\bin\Debug\net7.0\La ferrovia.runtimeconfig.json
+C:\Users\12999355\Desktop\compiti\La-ferrovia\La-ferroviaFunzionante\La-ferrovia-main\La ferrovia\La ferrovia\bin\Debug\net7.0\La ferrovia.dll
+C:\Users\12999355\Desktop\compiti\La-ferrovia\La-ferroviaFunzionante\La-ferrovia-main\La ferrovia\La ferrovia\bin\Debug\net7.0\La ferrovia.pdb
+C:\Users\12999355\Desktop\compiti\La-ferrovia\La-ferroviaFunzionante\La-ferrovia-main\La ferrovia\La ferrovia\obj\Debug\net7.0\La ferrovia.csproj.AssemblyReference.cache
+C:\Users\12999355\Desktop\compiti\La-ferrovia\La-ferroviaFunzionante\La-ferrovia-main\La ferrovia\La ferrovia\obj\Debug\net7.0\La ferrovia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\12999355\Desktop\compiti\La-ferrovia\La-ferroviaFunzionante\La-ferrovia-main\La ferrovia\La ferrovia\obj\Debug\net7.0\La ferrovia.AssemblyInfoInputs.cache
+C:\Users\12999355\Desktop\compiti\La-ferrovia\La-ferroviaFunzionante\La-ferrovia-main\La ferrovia\La ferrovia\obj\Debug\net7.0\La ferrovia.AssemblyInfo.cs
+C:\Users\12999355\Desktop\compiti\La-ferrovia\La-ferroviaFunzionante\La-ferrovia-main\La ferrovia\La ferrovia\obj\Debug\net7.0\La ferrovia.csproj.CoreCompileInputs.cache
+C:\Users\12999355\Desktop\compiti\La-ferrovia\La-ferroviaFunzionante\La-ferrovia-main\La ferrovia\La ferrovia\obj\Debug\net7.0\La ferrovia.dll
+C:\Users\12999355\Desktop\compiti\La-ferrovia\La-ferroviaFunzionante\La-ferrovia-main\La ferrovia\La ferrovia\obj\Debug\net7.0\refint\La ferrovia.dll
+C:\Users\12999355\Desktop\compiti\La-ferrovia\La-ferroviaFunzionante\La-ferrovia-main\La ferrovia\La ferrovia\obj\Debug\net7.0\La ferrovia.pdb
+C:\Users\12999355\Desktop\compiti\La-ferrovia\La-ferroviaFunzionante\La-ferrovia-main\La ferrovia\La ferrovia\obj\Debug\net7.0\La ferrovia.genruntimeconfig.cache
+C:\Users\12999355\Desktop\compiti\La-ferrovia\La-ferroviaFunzionante\La-ferrovia-main\La ferrovia\La ferrovia\obj\Debug\net7.0\ref\La ferrovia.dll

@@ -34,6 +34,9 @@ namespace La_ferrovia
                     FerroviaDiRiferimento.Direzione = Direzione;
                     Interlocked.Increment(ref FerroviaDiRiferimento.TreniInMovimento);
                     await AttraversaBinari();
+
+                    await LiberaBinari(); 
+
                     break;
                 }
                 else
@@ -55,7 +58,7 @@ namespace La_ferrovia
 
             await Task.Delay(tempo);
 
-            await LiberaBinari();
+           
         }
 
         public async Task LiberaBinari()

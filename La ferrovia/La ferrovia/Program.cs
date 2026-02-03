@@ -17,11 +17,12 @@ namespace La_ferrovia
                 treni.Add(new Treno(i+1, Stazione).EntraBinario());
                 await Task.Delay(rnd.Next(300, 800));
             }
+
             
             await Task.WhenAll(treni);
 
-
             Console.WriteLine("Simulazione terminata");
+
         }
     }
 }

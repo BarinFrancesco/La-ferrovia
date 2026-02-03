@@ -83,6 +83,8 @@ namespace La_ferrovia
                 Interlocked.Exchange(ref FerroviaDiRiferimento.TreniConsecutivi, 0);
                 Print("Binario libero", 4);
                 FerroviaDiRiferimento.Direzione = null;
+
+
                 if (Interlocked.Read(ref AttesaCodaOpposta) != 0)
                 {
                     Interlocked.Decrement(ref AttesaCodaOpposta);

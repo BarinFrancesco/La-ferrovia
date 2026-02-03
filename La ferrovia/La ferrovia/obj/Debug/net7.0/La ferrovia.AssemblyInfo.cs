@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("La ferrovia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d77533e4acb4ce88e8146588d9248977f5a1eebe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("La ferrovia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("La ferrovia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
